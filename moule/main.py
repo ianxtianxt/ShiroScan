@@ -6,7 +6,7 @@
 
 def scripts(url,command):
     processor = Idea()
-    if "gov.cn" in url or "edu.cn" in url:
+    if "0-sec.org" in url or "pornhub.com" in url:
         print("[- ]存在敏感域名，停止检测，请使用其他工具或自行手工检测,抱歉")
         return False
     processed = processor.process(url,command)
